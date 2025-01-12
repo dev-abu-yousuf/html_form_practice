@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+fieldset {
+    width: 50%;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+fieldset h1 {
+    font-size: 24px;
+    color: #007BFF;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+input[type="submit"] {
+    background-color: #28a745;
+}
+
+input[type="reset"] {
+    background-color: #dc3545;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+input[type="reset"]:hover {
+    background-color: #c82333;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: #007BFF;
+    margin-bottom: 20px;
+}
+
+mark {
+    background-color: #ffeb3b;
+    padding: 0 5px;
+}
+
+.center {
+    text-align: center;
+}
